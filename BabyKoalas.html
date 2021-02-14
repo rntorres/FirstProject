@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Baby Koalas</title>
+<style>
+	h1 {color: darkgreen}
+	table, th, td {border: 1px solid black;
+	border-collapse: collapse}
+	th, td {padding: 10px}
+	.header {
+		background-color: limegreen}
+	#fun {
+		color: green;
+		font-style: italic}
+	</style>
+</head>
+
+<body>
+	<h1>All About Baby Koalas</h1>
+	<hr>
+	<p>Welcome to the <b style="color: green">Baby Koalas</b> page!</p>
+	<p id="fun">Learning about joeys is SO fun!</p>
+	<script>
+function myFunction() {
+  document.getElementById("fun").style.fontSize = "25px"; 
+  document.getElementById("fun").style.color = "red";       
+}
+</script>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+	<img src="images/babykoala1.jpg" height="400" width="300" alt="Joey on Mama Koala's Back">
+	<h2 class="header">Life of a Koala Joey</h2>
+	<p>As we previously learned, baby koalas are called <i style="background-color: lawngreen">joeys</i>.
+		<br>Now let's look at a table that charts the growth of a Joey in the first stages of life.</p>
+	<img src="images/babykoala2.jpg" height="158" width="300" alt="Joey on a Blanket">
+	
+	<table style="width: 30%">
+	<tr>
+		<th>Months</th>
+		<th>Phase of Life</th>
+	</tr>
+	<tr>
+		<td>1-6</td>
+		<td>The joey is living in the pouch of its mom.</td>
+	</tr>
+	<tr>
+		<td>7-10</td>
+		<td>The joey begins peeking outside of the pouch.</td>
+	</tr>
+	<tr>
+		<td>12+</td>
+		<td>The joey still feeds from mother, but begins to become more independent.</td>
+	</tr>
+	</table>
+	
+</body>
+</html>
